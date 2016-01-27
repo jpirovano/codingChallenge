@@ -1,0 +1,19 @@
+<div ng-controller="TimelineController as timelineCtrl">
+   <div class="panel panel-default">
+      <div class="panel-body">
+          <form ng-submit="timelineCtrl.publishPost()">
+              <textarea ng-model="timelineCtrl.post.text" class="form-control" placeholder="What's on your mind?" title="Post"></textarea>
+              <input type="submit" class="btn btn-primary btn-block" value="Post"/>
+         </form>
+      </div>
+   </div>
+   <ul>
+      <div ng-repeat="post in timelineCtrl.posts" class="timeline-post" style="height:110px">
+          {{post.text}}
+          <div style="position:relative;" class="pull-right">
+            <span class="timeline-post-label label">{{post.user.name}}</span>
+            <img src="img/{{post.user.profilePicture}}" alt="..." class="img-rounded timeline-post-image">
+          </div>
+      </div>
+    </ul>
+</div>

@@ -1,0 +1,8 @@
+<div ng-controller="FriendsController as friendsCtrl">
+  <div class="row">
+    <div class="col-xs-5 col-md-4 friend-item" ng-repeat="friend in friendsCtrl.friends">
+        <span class="friend-label label">{{friend.name}}</span>
+        <img src="img/{{friend.profilePicture}}" alt="..." class="img-rounded">
+    </div>
+  </div>
+</div>

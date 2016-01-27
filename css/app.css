@@ -1,0 +1,66 @@
+
+/*
+*  color palette: http://www.colourlovers.com/palette/1/metro
+*	#E9E9E9
+*	#FFFFFF
+*	#00B4FF
+*   #515151
+*/
+
+body {
+	background-color:#E9E9E9;
+}
+
+.spacer {
+	padding:20px;
+}
+
+.btn-primary {
+    background-color: #00B4FF;
+    border-color: #00B4FF;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+.panel {
+	background-color: #00B4FF;
+	border-color: #00B4FF;
+}
+
+.panel-body {
+	padding: 2px;
+}
+
+.friend-label {
+	position:absolute;
+	top:0px;
+	left:15px;
+	background-color: #515151;
+}
+
+.friend-item {
+	margin-bottom:10px;
+}
+
+.timeline-post {
+	background-color:#FFFFFF;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+	padding: 10px;
+	margin: 10px;
+}
+
+.timeline-post-image {
+	width: 90px;
+	height: 90px;
+}
+
+.timeline-post-label {
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: #515151;
+}
