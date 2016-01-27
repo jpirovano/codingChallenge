@@ -5,8 +5,8 @@ This project is an example of simple Social Networking made with angular.
 ## Technologies
 
 * [Angular](https://angular.io/) By requirement.
-* [Twitter bootstrap](http://socket.io/) To look good.
-* [NPM](https://www.npmjs.com/) To install packages.
+* [Twitter bootstrap](http://getbootstrap.com/) To look good.
+* [NPM](https://www.npmjs.com/) To install and manage packages.
 * [live-server](https://github.com/tapio/live-server/) To run locally.
 
 ## Quickstart
